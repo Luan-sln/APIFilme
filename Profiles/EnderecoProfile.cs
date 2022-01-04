@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using FilmesLista.Data;
 using FilmesLista.Data.Dtos;
 using FilmesLista.Models;
 

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace FilmesLista.Data.Dtos
+namespace FilmesLista.Data
 {
     public class UpdateEnderecoDto
     {
