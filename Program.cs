@@ -1,3 +1,4 @@
+using FilmesLista.Data;
 using FilmesLista.Services;
 using Microsoft.EntityFrameworkCore;
 using Npgsql;
@@ -10,7 +11,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<FilmesLista.Data.AppDbContext>(opts => opts.UseLazyLoadingProxies().UseNpgsql(builder.Configuration.GetConnectionString("FilmeConnection")), ServiceLifetime.Transient);
+builder.Services.AddDbContext<AppDbContext>(opts => opts.UseLazyLoadingProxies().UseNpgsql(builder.Configuration.GetConnectionString("FilmeConnection")), ServiceLifetime.Transient);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<FilmeService, FilmeService>();
 builder.Services.AddScoped<CinemaService, CinemaService>();

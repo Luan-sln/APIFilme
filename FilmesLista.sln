@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmesLista", "FilmesLista.csproj", "{6B994BE3-DE8E-41BF-9797-6A78BA18DB1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmesLista", "FilmesLista.csproj", "{6B994BE3-DE8E-41BF-9797-6A78BA18DB1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usuarios", "..\Usuarios\Usuarios.csproj", "{83A66473-0C54-4537-A727-1D8CB7F3A9F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6B994BE3-DE8E-41BF-9797-6A78BA18DB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B994BE3-DE8E-41BF-9797-6A78BA18DB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B994BE3-DE8E-41BF-9797-6A78BA18DB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A66473-0C54-4537-A727-1D8CB7F3A9F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A66473-0C54-4537-A727-1D8CB7F3A9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A66473-0C54-4537-A727-1D8CB7F3A9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A66473-0C54-4537-A727-1D8CB7F3A9F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
