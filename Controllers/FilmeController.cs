@@ -4,6 +4,7 @@ using FilmesLista.Data.Dtos;
 using FilmesLista.Models;
 using FilmesLista.Services;
 using FluentResults;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FilmesLista.Controllers
@@ -22,6 +23,7 @@ namespace FilmesLista.Controllers
 
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public IActionResult addFilme([FromBody] CreateFilmeDto filmeDto)
         {
             ReadFilmeDto readDto = _service.AdicionaFilme(filmeDto);
