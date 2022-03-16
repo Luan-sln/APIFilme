@@ -31,6 +31,7 @@ namespace FilmesLista.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "regular, admin")]
         public IActionResult RecuperaFilmes([FromQuery] int? classEtaria = null)
         {
             List<ReadFilmeDto> readDto = _service.RecuperaFilmes(classEtaria);
