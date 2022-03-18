@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmesLista", "FilmesLista.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usuarios", "..\Usuarios\Usuarios.csproj", "{83A66473-0C54-4537-A727-1D8CB7F3A9F5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiCinema", "ApiCinema", "{6EE811CB-FCFA-4C35-8F2F-3DF9033D4DEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B994BE3-DE8E-41BF-9797-6A78BA18DB1B} = {6EE811CB-FCFA-4C35-8F2F-3DF9033D4DEA}
+		{83A66473-0C54-4537-A727-1D8CB7F3A9F5} = {6EE811CB-FCFA-4C35-8F2F-3DF9033D4DEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B891841F-67EC-4F25-A9B1-1EC5B110ECDD}
